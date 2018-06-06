@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="49dp"
+        android:hint="weight in kg"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/inp"
+        android:layout_marginRight="65dp"
+        android:text="Calculate" />
+
+    <ImageView
+        android:id="@+id/Weight25"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="167dp"
+        app:srcCompat="@drawable/plate25" />
+
+    <ImageView
+        android:id="@+id/Weight20"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight25"
+        android:layout_toLeftOf="@+id/Weight15"
+        app:srcCompat="@drawable/plate20" />
+
+    <ImageView
+        android:id="@+id/Weight15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight25"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/plate15" />
+
+    <ImageView
+        android:id="@+id/Weight10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight25"
+        android:layout_toRightOf="@+id/Weight15"
+        app:srcCompat="@drawable/plate10" />
+
+    <ImageView
+        android:id="@+id/Weight2_5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Weight25"
+        android:layout_marginBottom="114dp"
+        app:srcCompat="@drawable/plate2_5" />
+
+    <ImageView
+        android:id="@+id/Weight2_0"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight2_5"
+        android:layout_toRightOf="@+id/Weight25"
+        app:srcCompat="@drawable/platetwo" />
+
+    <ImageView
+        android:id="@+id/Weight1_5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight2_5"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/plate1_5" />
+
+    <ImageView
+        android:id="@+id/Weight1_0"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight2_5"
+        android:layout_toRightOf="@+id/Weight15"
+        app:srcCompat="@drawable/plateone" />
+
+    <ImageView
+        android:id="@+id/Weight5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight25"
+        android:layout_toRightOf="@+id/Weight10"
+        app:srcCompat="@drawable/plate5" />
+
+    <ImageView
+        android:id="@+id/Weight0_5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Weight2_5"
+        android:layout_toRightOf="@+id/Weight10"
+        app:srcCompat="@drawable/plate0_5" />
+
+    <EditText
+        android:id="@+id/twentyfive"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Weight25"
+        android:layout_marginBottom="216dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/twenty"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twentyfive"
+        android:layout_toRightOf="@+id/Weight25"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/fifteen"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twentyfive"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ten"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twentyfive"
+        android:layout_toRightOf="@+id/Weight15"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/five"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twentyfive"
+        android:layout_toRightOf="@+id/Weight10"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/twohalf"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Weight25"
+        android:layout_marginBottom="53dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/two"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twohalf"
+        android:layout_toRightOf="@+id/Weight25"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/onehalf"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twohalf"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/one"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twohalf"
+        android:layout_toRightOf="@+id/Weight15"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/half"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/twohalf"
+        android:layout_toRightOf="@+id/Weight10"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/resetBut"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/calc"
+        android:layout_marginTop="108dp"
+        android:text="Reset"
+        android:visibility="visible" />
+
+</RelativeLayout>
