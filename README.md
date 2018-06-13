@@ -4,4 +4,5 @@ Tap the weights to remove the from the current calculation.
 Tap reset to make all plates available for next calculation.
 
 Screenshot:
+
 ![alt text](https://raw.githubusercontent.com/1adeolatam/BarbellCalculator/master/disp.png)
